@@ -1960,7 +1960,8 @@ input[type="tel"],
 input[type="color"],
 .select-kit.multi-select .multi-select-header,
 .d-editor-textarea-wrapper,
-.select-kit.combo-box .select-kit-header {
+.select-kit.combo-box .select-kit-header,
+textarea {
   border-radius: 0.25rem;
   border-width: 1px;
   --tw-border-opacity: 1;
