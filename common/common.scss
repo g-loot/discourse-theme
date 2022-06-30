@@ -1694,6 +1694,14 @@ ul.notifications {
     padding: 0.5rem;
   }
 }
+.admin-container {
+  > .row {
+    align-items: baseline;
+    > p {
+      color: var(--color-ui-300);
+    }
+  }
+}
 
 .admin-nav {
   > .nav-stacked {
@@ -1702,6 +1710,7 @@ ul.notifications {
     > li {
       border: none;
       a {
+        transition: all .3s ease;
         &.active {
           background: var(--color-main);
         }
