@@ -1978,6 +1978,10 @@ textarea {
     outline-width: 1px;
     outline-color: var(--color-ui-300);
   }
+
+  &[disabled] {
+    opacity: .4;
+  }
 }
 ::placeholder {
   color: var(--color-ui-400);
