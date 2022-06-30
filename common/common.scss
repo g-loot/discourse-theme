@@ -1644,7 +1644,7 @@ ul.notifications {
 }
 .boxed.white {
   @include surface();
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 1rem;
 }
 
@@ -1691,7 +1691,7 @@ ul.notifications {
 
 .admin-customize {
   .admin-container {
-    padding: 2rem 0 0;
+    padding: 0.5rem;
   }
 }
 
