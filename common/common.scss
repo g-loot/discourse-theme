@@ -1634,11 +1634,16 @@ ul.notifications {
 
 .badge-wrapper.bullet {
   .badge-category-parent-bg, 
-  .badge-wrapper.bullet {
-    .badge-category-bg {
-      border-radius: 1px;
-    }
+  .badge-category-bg {
+    border-radius: 1px;
   }
+}
+
+.admin-main-nav {
+  height: auto;
+}
+.boxed.white {
+  background: rgba(11, 11, 30, 0.95);
 }
 
 /*---------------------*/
