@@ -1643,15 +1643,19 @@ ul.notifications {
   height: auto;
 }
 .boxed.white {
-  background: rgba(11, 11, 30, 0.95);
+  @include surface();
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .admin-report .main .report-alert.no-data, 
 .admin-report .main .report-alert.rate-limited {
   border-color: var(--color-ui-700);
   color: var(--color-ui-300);
+}
+
+.admin-detail {
+  background: transparent;
 }
 
 /*---------------------*/
