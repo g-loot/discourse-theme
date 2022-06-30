@@ -1,0 +1,24 @@
+{
+  "name": "G-Loot community theme",
+  "about_url": "https://community.gloot.com/",
+  "license_url": "Theme license url",
+   "assets": {
+        "asset-variable": "assets/background.svg"
+   },
+   "color_schemes": {
+       "g-loot colors": {
+          "primary": "B9BBD1",
+          "secondary": "0B0B1E",
+          "tertiary": "13F094",
+          "quaternary": "F57C00",
+          "header_background": "0B0B1E",
+          "header_primary": "B9BBD1",
+          "highlight": "13F094",
+          "danger": "F57C00",
+          "success": "53DD6C",
+          "love": "FF5959",
+          "tertiary-low-or-tertiary-high": "0b6283",
+          "tertiary-med-or-tertiary": "0f82af"
+        }
+    }
+}
