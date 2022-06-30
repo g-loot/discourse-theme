@@ -449,6 +449,9 @@ span.highlighted {
   .unread-high-priority-notifications.badge-notification[href] {
     box-shadow: 0 0 0 2px var(--color-ui-800);
   }
+  .header-buttons {
+    gap: 0.5rem;
+  }
 }
 
 .empty-state {
