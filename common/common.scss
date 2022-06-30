@@ -1669,6 +1669,23 @@ ul.notifications {
   }
   > .controls {
     background: transparent;
+    margin: 0;
+  }
+  .nav-pills {
+    >li {
+      a {
+        &.active {
+          background: var(--color-main);
+        }
+      }
+    }
+  }
+}
+
+.admin-contents {
+  > .admin-controls {
+    border-radius: 0.25rem;
+    background: transparent;
   }
 }
 
