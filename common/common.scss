@@ -1644,7 +1644,7 @@ ul.notifications {
 }
 .boxed.white {
   @include surface();
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 1rem;
 }
 
@@ -1655,6 +1655,24 @@ ul.notifications {
 }
 
 .admin-detail {
+  background: transparent;
+}
+
+.admin-controls {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  nav {
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+  > .controls {
+    background: transparent;
+  }
+}
+
+.permalink-form {
   background: transparent;
 }
 
