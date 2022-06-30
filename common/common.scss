@@ -1644,6 +1644,14 @@ ul.notifications {
 }
 .boxed.white {
   background: rgba(11, 11, 30, 0.95);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.admin-report .main .report-alert.no-data, 
+.admin-report .main .report-alert.rate-limited {
+  border-color: var(--color-ui-700);
+  color: var(--color-ui-300);
 }
 
 /*---------------------*/
