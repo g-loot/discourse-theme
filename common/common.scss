@@ -2035,8 +2035,8 @@ input[type="checkbox"] {
     transform: scale(1);
   }
 
-  :disabled,
-  [disabled] {
+  &:disabled,
+  &[disabled] {
     color: var(--color-disabled-300);
     cursor: not-allowed;
     opacity: .4;
