@@ -1656,6 +1656,7 @@ ul.notifications {
 
 .admin-detail {
   background: transparent;
+  border: none;
 }
 
 .admin-controls {
@@ -1697,9 +1698,9 @@ ul.notifications {
 .admin-container {
   > .row {
     align-items: baseline;
-    > p {
-      color: var(--color-ui-300);
-    }
+  }
+  p {
+    color: var(--color-ui-300);
   }
 }
 
