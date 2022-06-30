@@ -1695,6 +1695,26 @@ ul.notifications {
   }
 }
 
+.admin-nav {
+  > .nav-stacked {
+    border-radius: 0.25rem;
+    overflow: hidden;
+    > li {
+      border: none;
+      a {
+        &.active {
+          background: var(--color-main);
+        }
+        &:not(.active) {
+          &:hover {
+            background: var(--color-ui-600);
+          }
+        }
+      }
+    }
+  }
+}
+
 .permalink-form {
   background: transparent;
 }
